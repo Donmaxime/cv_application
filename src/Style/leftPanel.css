@@ -1,0 +1,59 @@
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.form-group {
+  display: flex;
+  align-items: center; /* Aligne verticalement le label et l'input */
+  justify-content: space-between; /* Assure un espacement optimal entre le label et l'input */
+  /* gap: 10px; Espacement horizontal entre le label et l'input */
+}
+
+.styled-textarea {
+  width: 100%; /* Prend toute la largeur du conteneur */
+  height: 150px; /* Hauteur définie */
+  padding: 10px; /* Espacement interne */
+  border: 2px solid #007bff; /* Bordure bleu */
+  border-radius: 8px; /* Coins arrondis */
+  font-size: 16px; /* Taille de la police */
+  font-family: Arial, sans-serif; /* Police moderne */
+  resize: vertical; /* Permet à l'utilisateur d'ajuster uniquement la hauteur */
+  background-color: #f9f9f9; /* Fond léger */
+  color: #333; /* Couleur du texte */
+  outline: none; /* Supprime l'effet de contour */
+}
+
+.styled-textarea:focus {
+  border-color: #0056b3; /* Change la couleur de bordure lorsqu'on clique dedans */
+  box-shadow: 0px 0px 5px rgba(0, 91, 187, 0.5); /* Ajoute un effet lumineux */
+}
+
+
+button {
+  align-self: flex-end; /* Positionne le bouton à droite */
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50; /* Couleur du bouton (vert) */
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Couleur du bouton au survol */
+}
